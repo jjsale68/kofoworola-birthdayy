@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Kofoworola!</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About You</a></li>
+                <li><a href="#memories">Memories</a></li>
+                <li><a href="#dreams">Dreams</a></li>
+                <li><a href="#love">My Love</a></li>
+                <li><a href="#surprise">Surprise</a></li>
+                <li><a href="#guestbook">Guestbook</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <h1>Happy Birthday, Kofoworola! ????</h1>
+        <p>My queen, June 5 is YOUR day! Your dancing and singing shine brighter than Burna Boy, and E.K Fashion Fusion’s ready to slay. Scroll for the party!</p>
+        <video controls src="./assets/kofoworola-dancing.mp4" class="hero-media"></video>
+        <a href="#about" class="btn">Dance into Your Birthday!</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="content">
+        <h2>You’re the Star of June 5! ??</h2>
+        <p>Kofoworola, your dancing sets Lagos ablaze, your singing rivals Burna Boy, and E.K Fashion Fusion is pure magic. Happy Birthday, superstar!</p>
+        <h3>5 Reasons You’re My Birthday Icon</h3>
+        <ul>
+            <li>Your voice vibes like “On The Low.”</li>
+            <li>Your dance moves own every stage.</li>
+            <li>E.K Fashion Fusion’s global takeover is coming.</li>
+            <li>Your smile outshines Ziba’s sunset.</li>
+            <li>Your heart makes every day a bash.</li>
+        </ul>
+        <p class="poem">
+            June 5’s your stage, you glow so bright,<br>
+            Dancing, singing, building dreams in flight.<br>
+            Kofoworola, my love, wear your crown,<br>
+            Happy Birthday, my queen, light up the town!
+        </p>
+        <div class="gallery">
+            <img src="./assets/kofoworola-singing.jpg" alt="Kofoworola singing" class="fade-in">
+            <img src="./assets/kofoworola-smiling.jpg" alt="Kofoworola smiling" class="fade-in">
+            <video controls src="./assets/kofoworola-singing.mp4" class="fade-in"></video>
+        </div>
+    </section>
+
+    <!-- Memories Section -->
+    <section id="memories" class="content">
+        <h2>Memories That Spark Your Birthday ??</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <img src="./assets/chunz-meeting.jpg" alt="Chunz Meeting" class="fade-in">
+                <p>Chunz Vibes: Your smile at Chunz stole my heart.</p>
+            </div>
+            <div class="timeline-item">
+                <img src="./assets/proposal-day.jpg" alt="Proposal Day" class="fade-in">
+                <p>Proposal Day: Your “yes” was my ultimate gift.</p>
+            </div>
+            <div class="timeline-item">
+                <img src="./assets/night-together.jpg" alt="Night Together" class="fade-in">
+                <p>Night Together: We vibed under stars, pure magic.</p>
+            </div>
+        </div>
+        <h3>Birthday Love Notes</h3>
+        <ul>
+            <li>Your dancing is my favorite party.</li>
+            <li>E.K Fashion Fusion’s rise is your crown.</li>
+            <li>I love you more than Ziba’s waves.</li>
+        </ul>
+        <div class="memory-jar">
+            <button onclick="showMemoryNote()">Open Birthday Gift Jar</button>
+            <p id="memory-note" style="display: none;">Happy Birthday, Kofoworola!</p>
+        </div>
+        <video controls src="./assets/montage.mp4" class="fade-in"></video>
+    </section>
+
+    <!-- Dreams Section -->
+    <section id="dreams" class="content">
+        <h2>Your Birthday Dreams Are Fire! ??</h2>
+        <p>Kofoworola, your dancing and singing slay, and E.K Fashion Fusion’s about to go global like Burna Boy. June 5’s your launch party!</p>
+        <h3>Birthday Dream Board</h3>
+        <ul>
+            <li>E.K Fashion Fusion ruling global runways.</li>
+            <li>Singing a Burna Boy collab that bangs.</li>
+            <li>Dancing in a viral Lagos video.</li>
+        </ul>
+        <blockquote>Your birthday’s the spark for your empire, Kofoworola!</blockquote>
+        <video controls src="./assets/kofoworola-dancing.mp4" class="fade-in"></video>
+        <img src="./assets/kofoworola-stage.jpg" alt="Kofoworola on stage" class="fade-in">
+    </section>
+
+    <!-- Love Section -->
+    <section id="love" class="content">
+        <h2>My Heart Parties for You! ??</h2>
+        <p class="letter">My Kofoworola, June 5 is your runway. Your dancing, singing, and E.K Fashion Fusion make my world pop. I love you to Ziba and back!</p>
+        <h3>A Birthday Prayer</h3>
+        <p>May your year bring E.K Fashion Fusion’s takeover, Ziba vibes, and pure joy. Amen.</p>
+        <h3>Birthday Promises</h3>
+        <ul>
+            <li>I’ll jam to Burna Boy with you forever.</li>
+            <li>I’ll dance with you at Ziba Beach.</li>
+            <li>I’ll cheer E.K Fashion Fusion to the top.</li>
+        </ul>
+        <img src="./assets/us-together.jpg" alt="Us together" class="fade-in">
+        <video controls src="./assets/my-message.mp4" class="fade-in"></video>
+    </section>
+
+    <!-- Surprise Section -->
+    <section id="surprise" class="content">
+        <h2>Your Birthday Surprise Is Lit! ??</h2>
+        <p>Kofoworola, grab your shades! On June 5, we’re hitting Ziba Beach for sunset waves and Burna Boy bangers. Your dream vibe’s here!</p>
+        <h3>Our Love Story Quiz</h3>
+        <form>
+            <p>What Burna Boy song was playing when we first kissed?</p>
+            <input type="radio" name="q1" value="a"> On The Low<br>
+            <input type="radio" name="q1" value="b"> Ye<br>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="countdown"></div>
+        <video controls src="./assets/surprise-setup.mp4" class="fade-in"></video>
+        <img src="./assets/ziba-beach.jpg" alt="Ziba Beach" class="fade-in">
+    </section>
+
+    <!-- Guestbook Section -->
+    <section id="guestbook" class="content">
+        <h2>Drop a June 5 Birthday Wish! ??</h2>
+        <p>My superstar, Kofoworola, share your birthday vibes or E.K Fashion Fusion dreams!</p>
+        <form id="guestbook-form">
+            <textarea placeholder="Your birthday message..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="guestbook-messages"></div>
+        <img src="./assets/kofoworola-smiling.jpg" alt="Kofoworola smiling" class="fade-in">
+    </section>
+
+    <audio autoplay loop style="display: none;">
+        <source src="./assets/burna-boy-song.mp3" type="audio/mpeg">
+    </audio>
+    <script src="./script.js"></script>
+</body>
+</html>
