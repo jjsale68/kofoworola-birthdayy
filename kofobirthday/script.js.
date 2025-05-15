@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
 // Memory Jar
 function showMemoryNote() {
     const notes = [
-        'Happy Birthday, Kofoworola! E.K Fashion Fusion’s taking over! ????',
+        'Happy Birthday, Kofoworola! E.K Fashion Fusionâ€™s taking over! ????',
         'Your dancing and singing make June 5 the hottest party! ??',
-        'Ziba Beach awaits, my love—shine like Burna Boy at Chunz! ??'
+        'Ziba Beach awaits, my loveâ€”shine like Burna Boy at Chunz! ??'
     ];
     const note = notes[Math.floor(Math.random() * notes.length)];
     const noteElement = document.getElementById('memory-note');
